@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Downloading IDCATF</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6f2; /* Soft pink background */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .download-container {
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+        }
+
+        h1 {
+            color: #ff6fa9;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            color: #555;
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .download-link {
+            color: #ff6fa9;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="download-container">
+        <h1>Downloading IDCATF</h1>
+        <p>Your download should start automatically. If it doesn’t, 
+           <a href="https://github.com/cyber-lua/i-dont-care-about-temp-files-V2/releases/download/V1.0/IDCATF.exe" class="download-link">click here</a>.
+        </p>
+    </div>
+
+    <script>
+        // Trigger download automatically after a short delay
+        setTimeout(() => {
+            window.location.href = "https://github.com/cyber-lua/i-dont-care-about-temp-files-V2/releases/download/V1.0/IDCATF.exe";
+        }, 1000);
+    </script>
+
+</body>
+</html>
